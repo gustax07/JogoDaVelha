@@ -53,23 +53,28 @@
             this.btnFechar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnFechar.ForeColor = System.Drawing.Color.White;
+            this.btnFechar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFechar.ImageKey = "(nenhum/a)";
             this.btnFechar.Location = new System.Drawing.Point(466, 403);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(87, 29);
             this.btnFechar.TabIndex = 1;
             this.btnFechar.Text = "Fechar";
+            this.btnFechar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnFechar.UseVisualStyleBackColor = false;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::JogoDaVelha.Properties.Resources.reset;
-            this.pictureBox1.Location = new System.Drawing.Point(241, 115);
+            this.pictureBox1.Location = new System.Drawing.Point(436, 110);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(78, 57);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pibTitulo
             // 
@@ -102,6 +107,7 @@
             this.btn11.Size = new System.Drawing.Size(86, 69);
             this.btn11.TabIndex = 4;
             this.btn11.UseVisualStyleBackColor = true;
+            this.btn11.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // btn12
             // 
@@ -114,6 +120,7 @@
             this.btn12.Size = new System.Drawing.Size(86, 69);
             this.btn12.TabIndex = 5;
             this.btn12.UseVisualStyleBackColor = true;
+            this.btn12.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // btn13
             // 
@@ -126,6 +133,7 @@
             this.btn13.Size = new System.Drawing.Size(86, 69);
             this.btn13.TabIndex = 6;
             this.btn13.UseVisualStyleBackColor = true;
+            this.btn13.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // btn21
             // 
@@ -138,6 +146,7 @@
             this.btn21.Size = new System.Drawing.Size(86, 69);
             this.btn21.TabIndex = 7;
             this.btn21.UseVisualStyleBackColor = true;
+            this.btn21.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // btn22
             // 
@@ -150,6 +159,7 @@
             this.btn22.Size = new System.Drawing.Size(86, 69);
             this.btn22.TabIndex = 8;
             this.btn22.UseVisualStyleBackColor = true;
+            this.btn22.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // btn23
             // 
@@ -162,6 +172,7 @@
             this.btn23.Size = new System.Drawing.Size(86, 69);
             this.btn23.TabIndex = 9;
             this.btn23.UseVisualStyleBackColor = true;
+            this.btn23.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // btn31
             // 
@@ -174,6 +185,7 @@
             this.btn31.Size = new System.Drawing.Size(86, 69);
             this.btn31.TabIndex = 10;
             this.btn31.UseVisualStyleBackColor = true;
+            this.btn31.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // btn32
             // 
@@ -186,6 +198,7 @@
             this.btn32.Size = new System.Drawing.Size(86, 69);
             this.btn32.TabIndex = 11;
             this.btn32.UseVisualStyleBackColor = true;
+            this.btn32.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // btn33
             // 
@@ -198,12 +211,13 @@
             this.btn33.Size = new System.Drawing.Size(86, 69);
             this.btn33.TabIndex = 12;
             this.btn33.UseVisualStyleBackColor = true;
+            this.btn33.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // lblinfo
             // 
             this.lblinfo.AutoSize = true;
             this.lblinfo.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblinfo.Location = new System.Drawing.Point(61, 125);
+            this.lblinfo.Location = new System.Drawing.Point(176, 126);
             this.lblinfo.Name = "lblinfo";
             this.lblinfo.Size = new System.Drawing.Size(174, 32);
             this.lblinfo.TabIndex = 13;
